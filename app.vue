@@ -1,10 +1,14 @@
+<script setup lang="ts">
+import { ref } from 'vue';
+import 'animate.css';
+
+</script>
+
 <template>
-
-  <img src="/img/nuxt.png" alt="Discover Nuxt 3" />
-
   <div>
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
   </div>
+
 </template>
